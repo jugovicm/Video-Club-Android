@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spnLista"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <Button
+            android:id="@+id/btnObrisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obrisi"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="229dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etIme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Ime"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <EditText
+            android:id="@+id/etDatum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Datum rodjenja"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnDodaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="560dp" />
+
+        <Button
+            android:id="@+id/btnIzmeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Izmeni"
+            tools:layout_editor_absoluteX="222dp"
+            tools:layout_editor_absoluteY="560dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spnLista2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <Button
+            android:id="@+id/btnPronadji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pronadji"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="229dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVideoKlub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video klub"
+        tools:layout_gravity="center"
+        tools:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/btnOsvezi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Osvezi bazu"
+        tools:layout_gravity="center"
+        tools:layout_marginTop="50dp"  />
+
+</LinearLayout>
